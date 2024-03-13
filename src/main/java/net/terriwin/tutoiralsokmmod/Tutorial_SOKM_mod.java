@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.terriwin.tutoiralsokmmod.item.ModCreativeModTabs;
 import net.terriwin.tutoiralsokmmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -28,6 +29,8 @@ public class Tutorial_SOKM_mod
     public Tutorial_SOKM_mod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -42,7 +45,8 @@ public class Tutorial_SOKM_mod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event){
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
-            event.accept(ModItems.bundlecake);
+            event.accept(ModItems.bundlesweets);
+            event.accept(ModItems.bundledrinks);
         }
     }
 

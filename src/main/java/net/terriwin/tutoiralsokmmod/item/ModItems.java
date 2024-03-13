@@ -11,8 +11,11 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Tutorial_SOKM_mod.MOD_ID);
 
-    public static final RegistryObject<Item> bundlecake = ITEMS.register("bundlecake",
+    public static final RegistryObject<Item> bundlesweets = ITEMS.register("bundlesweets",
             ()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> bundledrinks = ITEMS.register("bundledrinks",
+            ()-> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

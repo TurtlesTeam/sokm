@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialsokmmod:item/bundlecake"
+    "layer0": "tutorialsokmmod:item/bundledrinks"
   }
 }
