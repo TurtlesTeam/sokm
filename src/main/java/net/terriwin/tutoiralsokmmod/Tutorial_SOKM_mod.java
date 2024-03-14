@@ -48,6 +48,9 @@ public class Tutorial_SOKM_mod
             event.accept(ModItems.bundlesweets);
             event.accept(ModItems.bundledrinks);
         }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

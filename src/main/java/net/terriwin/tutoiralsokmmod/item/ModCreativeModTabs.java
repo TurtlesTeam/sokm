@@ -19,6 +19,7 @@ public class ModCreativeModTabs {
                     .displayItems((qParameters, pOutput)-> {
                         pOutput.accept(ModItems.bundlesweets.get());
                         pOutput.accept(ModItems.bundledrinks.get());
+                        pOutput.accept(ModItems.lignitecoal.get());
                     })
                     .build());
 
