@@ -1,4 +1,4 @@
-package net.terriwin.tutoiralsokmmod;
+package net.terriwin.sokm;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -13,24 +13,25 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.terriwin.tutoiralsokmmod.item.ModCreativeModTabs;
-import net.terriwin.tutoiralsokmmod.item.ModItems;
+import net.terriwin.sokm.item.ModBlocks;
+import net.terriwin.sokm.item.ModCreativeModTabs;
+import net.terriwin.sokm.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Tutorial_SOKM_mod.MOD_ID)
-public class Tutorial_SOKM_mod
+@Mod(sokm.MOD_ID)
+public class sokm
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "tutorialsokmmod";
+    public static final String MOD_ID = "sokm";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Tutorial_SOKM_mod() {
+    public sokm() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
