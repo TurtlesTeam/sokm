@@ -36,14 +36,21 @@ public class ModBlocks {
 
     private  static <T extends Block> RegistryObject<T> registryObject(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn);
+        if (name.equals("lignitecoal_block")) {
+            registerFuelBlockItem(name, toReturn, 12800);
+        } else registerBlockItem(name, toReturn);
         return toReturn;
     }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
-
-
     }
+    private static <T extends Block> RegistryObject<Item> registerFuelBlockItem(String name, RegistryObject<T> block, int burnTime){
+        return ModItems.ITEMS.register(name, () -> new FuelBlock(block.get(),new Item.Properties(), burnTime));
+    }
+
+
+
+
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }
