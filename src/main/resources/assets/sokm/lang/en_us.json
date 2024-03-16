@@ -3,9 +3,11 @@
   "item.sokm.bundledrinks": "Bundle of Drinks",
   "item.sokm.lignitecoal": "Lignite Coal",
 
+  "item.sokm.donut": "The Main Secret of Kitchen Mechanics",
+
   "block.sokm.lignitecoal_block": "Lignite Coal",
-  "block.sokm.lignitecoal_ore": "Lignite Coal",
-  "block.sokm.lignitecoal_deepslate_ore": "Lignite Coal",
+  "block.sokm.lignitecoal_ore": "Lignite Coal Ore",
+  "block.sokm.deepslate_lignitecoal_ore": "Deepslate Lignite Coal Ore",
 
    "creativetab.sokm_tab": "Secret of Kitchen Mechanics"
 }

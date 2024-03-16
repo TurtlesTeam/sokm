@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "sokm:block/lignitecoal_deepslate_ore"
+    "all": "sokm:block/deepslate_lignitecoal_ore"
   }
 }

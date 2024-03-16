@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.terriwin.sokm.block.ModBlocks;
 import net.terriwin.sokm.sokm;
 
 public class ModCreativeModTabs {
@@ -21,9 +22,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.bundledrinks.get());
                         pOutput.accept(ModItems.lignitecoal.get());
 
+                        pOutput.accept(ModItems.donut.get());
+
                         pOutput.accept(ModBlocks.lignitecoal_block.get());
                         pOutput.accept(ModBlocks.lignitecoal_ore.get());
-                        pOutput.accept(ModBlocks.lignitecoal_deepslate_ore.get());
+                        pOutput.accept(ModBlocks.deepslate_lignitecoal_ore.get());
 
                     })
                     .build());

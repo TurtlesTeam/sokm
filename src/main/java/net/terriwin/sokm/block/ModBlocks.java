@@ -1,14 +1,19 @@
-package net.terriwin.sokm.item;
+package net.terriwin.sokm.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.terriwin.sokm.block.custom.FuelBlock;
+import net.terriwin.sokm.item.ModItems;
+import net.terriwin.sokm.item.custom.FuelItem;
 import net.terriwin.sokm.sokm;
 
 import java.util.function.Supplier;
@@ -19,12 +24,10 @@ public class ModBlocks {
 
     public  static  final RegistryObject<Block> lignitecoal_block = registryObject("lignitecoal_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
-
     public  static  final RegistryObject<Block> lignitecoal_ore = registryObject("lignitecoal_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)));
-
-    public  static  final RegistryObject<Block> lignitecoal_deepslate_ore = registryObject("lignitecoal_deepslate_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+    public  static  final RegistryObject<Block> deepslate_lignitecoal_ore = registryObject("deepslate_lignitecoal_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE).requiresCorrectToolForDrops(), UniformInt.of(4,8)));
 
 
 

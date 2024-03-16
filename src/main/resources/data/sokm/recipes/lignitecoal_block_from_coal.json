@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sokm:lignitecoal"
+    }
+  },
+  "result":{
+    "item": "sokm:lignitecoal_block"
+  }
+}

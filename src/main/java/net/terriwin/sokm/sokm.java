@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.terriwin.sokm.item.ModBlocks;
+import net.terriwin.sokm.block.ModBlocks;
 import net.terriwin.sokm.item.ModCreativeModTabs;
 import net.terriwin.sokm.item.ModItems;
 import org.slf4j.Logger;
