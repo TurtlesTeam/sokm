@@ -34,11 +34,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.lignitecoal_block.get());
 
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.lignitecoal_block.get());
+       // this.tag(BlockTags.NEEDS_IRON_TOOL)
+             //   .add(ModBlocks.lignitecoal_block.get());
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.lignitecoal_block.get());
+       // this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+            //    .add(ModBlocks.lignitecoal_block.get());
+
+       // this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
+         //       .add(ModBlocks.lignitecoal_block.get());
 
     }
 }
