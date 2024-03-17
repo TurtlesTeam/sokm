@@ -13,7 +13,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.terriwin.sokm.block.custom.FuelBlock;
 import net.terriwin.sokm.item.ModItems;
-import net.terriwin.sokm.item.custom.FuelItem;
 import net.terriwin.sokm.sokm;
 
 import java.util.function.Supplier;
@@ -22,8 +21,8 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, sokm.MOD_ID  );
 
-    public  static  final RegistryObject<Block> lignitecoal_block = registryObject("lignitecoal_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+    public  static  final RegistryObject<Block> lignitecoal_block = registryFuelObject("lignitecoal_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)), 12800);
     public  static  final RegistryObject<Block> lignitecoal_ore = registryObject("lignitecoal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
     public  static  final RegistryObject<Block> deepslate_lignitecoal_ore = registryObject("deepslate_lignitecoal_ore",
@@ -36,12 +35,18 @@ public class ModBlocks {
 
     private  static <T extends Block> RegistryObject<T> registryObject(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        if (name.equals("lignitecoal_block")) {
-            registerFuelBlockItem(name, toReturn, 12800);
-        } else registerBlockItem(name, toReturn);
+        registryBlockItem(name, toReturn);
         return toReturn;
     }
-    private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block){
+
+    private  static <T extends Block> RegistryObject<T> registryFuelObject(String name, Supplier<T> block, int burnTime){
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerFuelBlockItem(name, toReturn, burnTime);
+        return toReturn;
+    }
+
+
+    private static <T extends Block> RegistryObject<Item> registryBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
     }
     private static <T extends Block> RegistryObject<Item> registerFuelBlockItem(String name, RegistryObject<T> block, int burnTime){
