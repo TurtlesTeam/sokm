@@ -6,12 +6,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.terriwin.sokm.block.custom.FuelBlock;
+import net.terriwin.sokm.fluids.ModFluids;
 import net.terriwin.sokm.item.ModItems;
 import net.terriwin.sokm.sokm;
 
@@ -46,15 +48,16 @@ public class ModBlocks {
     }
 
 
+    public static final RegistryObject<LiquidBlock> GLAZE_BLOCK = BLOCKS.register("soap_water_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_GLAZE, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
+
     private static <T extends Block> RegistryObject<Item> registryBlockItem(String name, RegistryObject<T> block){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),new Item.Properties()));
     }
     private static <T extends Block> RegistryObject<Item> registerFuelBlockItem(String name, RegistryObject<T> block, int burnTime){
         return ModItems.ITEMS.register(name, () -> new FuelBlock(block.get(),new Item.Properties(), burnTime));
     }
-
-
-
 
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);

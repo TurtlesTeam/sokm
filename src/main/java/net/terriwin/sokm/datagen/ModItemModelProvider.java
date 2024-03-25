@@ -20,7 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.lignitecoal);
 
         simpleItem(ModItems.donut);
-
+        simpleItem(ModItems.glaze_bucket);
         simpleItem(ModItems.bundlesweets);
         simpleItem(ModItems.bundledrinks);
     }

@@ -21,12 +21,14 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.bundlesweets.get());
                         pOutput.accept(ModItems.bundledrinks.get());
                         pOutput.accept(ModItems.lignitecoal.get());
+                        pOutput.accept(ModItems.glaze_bucket.get());
 
                         pOutput.accept(ModItems.donut.get());
 
                         pOutput.accept(ModBlocks.lignitecoal_block.get());
                         pOutput.accept(ModBlocks.lignitecoal_ore.get());
                         pOutput.accept(ModBlocks.deepslate_lignitecoal_ore.get());
+
 
                     })
                     .build());
