@@ -16,9 +16,9 @@ public class ModFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, sokm.MOD_ID);
 
-    public static final RegistryObject<FlowingFluid> SOURCE_GLAZE = FLUIDS.register("soap_water_fluid",
+    public static final RegistryObject<FlowingFluid> SOURCE_GLAZE = FLUIDS.register("source_glaze",
             () -> new ForgeFlowingFluid.Source(ModFluids.glaze_fluid_properties));
-    public static final RegistryObject<FlowingFluid> FLOWING_GLAZE = FLUIDS.register("flowing_soap_water",
+    public static final RegistryObject<FlowingFluid> FLOWING_GLAZE = FLUIDS.register("flowing_glaze",
             () -> new ForgeFlowingFluid.Flowing(ModFluids.glaze_fluid_properties));
 
 

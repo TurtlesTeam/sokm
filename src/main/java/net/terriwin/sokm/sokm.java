@@ -73,8 +73,8 @@ public class sokm
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_GLAZE.get(), RenderType.translucent());
-            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_GLAZE.get(), RenderType.translucent());
+           // ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_GLAZE.get(), RenderType.translucent());
+           // ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_GLAZE.get(), RenderType.translucent());
         }
     }
 }
