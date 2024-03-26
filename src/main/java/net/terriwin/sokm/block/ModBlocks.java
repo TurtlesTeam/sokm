@@ -30,6 +30,8 @@ public class ModBlocks {
     public  static  final RegistryObject<Block> deepslate_lignitecoal_ore = registryObject("deepslate_lignitecoal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE).requiresCorrectToolForDrops(), UniformInt.of(4,8)));
 
+    public  static  final RegistryObject<Block> glaze = registryObject("glaze",
+            () -> new LiquidBlock(ModFluids.SOURCE_GLAZE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
 
 
 

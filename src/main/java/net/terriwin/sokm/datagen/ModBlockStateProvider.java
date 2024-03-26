@@ -19,6 +19,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.lignitecoal_block);
 
+
+        blockWithItem(ModBlocks.glaze);
+
+
         blockWithItem(ModBlocks.lignitecoal_ore);
         blockWithItem(ModBlocks.deepslate_lignitecoal_ore);
     }
