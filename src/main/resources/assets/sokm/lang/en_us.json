@@ -11,5 +11,9 @@
 
    "creativetab.sokm_tab": "Secret of Kitchen Mechanics",
 
-  "item.sokm.glaze_bucket": "Glaze Bucket"
+  "item.sokm.glaze_bucket": "Glaze Bucket",
+
+  "item.sokm.andensite_base": "Andensite Base",
+  "item.sokm.brass_base": "Brass Base",
+  "item.sokm.radiant_base": "Radiant Base"
 }
