@@ -29,6 +29,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.lignitecoal_ore.get());
                         pOutput.accept(ModBlocks.deepslate_lignitecoal_ore.get());
 
+                        //bases
+                        pOutput.accept(ModItems.andensite_base.get());
+                        pOutput.accept(ModItems.brass_base.get());
+                        pOutput.accept(ModItems.radiant_base.get());
+                        //
+
 
                     })
                     .build());

@@ -22,6 +22,19 @@ public class ModItems {
     public static final RegistryObject<Item> lignitecoal = ITEMS.register("lignitecoal",
             ()-> new FuelItem(new Item.Properties(), 1280 ));
 
+
+
+    //bases
+
+    public static final RegistryObject<Item> andensite_base = ITEMS.register("andensite_base",
+            ()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> brass_base = ITEMS.register("brass_base",
+            ()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> radiant_base = ITEMS.register("radiant_base",
+            ()-> new Item(new Item.Properties()));
+
+    //
+
     public static final RegistryObject<Item> donut = ITEMS.register("donut",
             ()-> new Item(new Item.Properties().food(ModFoods.donut).stacksTo(16)));
 

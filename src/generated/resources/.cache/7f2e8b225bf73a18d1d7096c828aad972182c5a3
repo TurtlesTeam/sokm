@@ -1,0 +1,4 @@
+// 1.20.1	2024-04-13T00:33:50.1202208	Tags for minecraft:block mod id sokm
+6e265c2f81f7caa161f87b35bd35e8a3171eeb9d data/minecraft/tags/blocks/mineable/pickaxe.json
+fe25170fc68ad1bf47af17f87dddf6c05a36c0c5 data/minecraft/tags/blocks/needs_stone_tool.json
+c006999a42316a6b0fc2b6b599dceaf0a5fd6448 data/sokm/tags/blocks/creativbleblock.json

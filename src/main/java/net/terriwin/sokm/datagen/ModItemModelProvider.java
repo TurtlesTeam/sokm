@@ -23,6 +23,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.glaze_bucket);
         simpleItem(ModItems.bundlesweets);
         simpleItem(ModItems.bundledrinks);
+
+
+
+        //bases
+        simpleItem(ModItems.andensite_base);
+        simpleItem(ModItems.brass_base);
+        simpleItem(ModItems.radiant_base);
+        //
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){
