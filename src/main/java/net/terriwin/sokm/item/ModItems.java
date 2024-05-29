@@ -23,6 +23,8 @@ public class ModItems {
             ()-> new FuelItem(new Item.Properties(), 1280 ));
 
 
+    public static final RegistryObject<Item> cyberpizza = ITEMS.register("cyberpizza",
+            ()-> new Item(new Item.Properties().stacksTo(64)));
 
     //bases
 

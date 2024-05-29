@@ -23,6 +23,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.glaze_bucket);
         simpleItem(ModItems.bundlesweets);
         simpleItem(ModItems.bundledrinks);
+        simpleItem(ModItems.cyberpizza);
 
 
 

@@ -24,7 +24,7 @@ public class ModFluidType {
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, sokm.MOD_ID);
 
     public static final RegistryObject<FluidType> GLAZE_TYPE = register("glaze_fluid",
-            FluidType.Properties.create().lightLevel(2).density(1400).viscosity(2000).motionScale(0.008).canSwim(false).supportsBoating(true).sound(SoundAction.get("drink"),
+            FluidType.Properties.create().density(1400).viscosity(2000).motionScale(0.008).canSwim(false).supportsBoating(true).sound(SoundAction.get("drink"),
                     SoundEvents.HONEY_DRINK));
 
 

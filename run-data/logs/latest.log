@@ -1,40 +1,40 @@
-[13апр.2024 03:10:31.765] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\komet\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, sokm, --all, --output, Z:\Prrorgrams\modingminecraft\sokm\src\generated\resources, --existing, Z:\Prrorgrams\modingminecraft\sokm\src\main\resources, --mixin.config, mixins.sokm.json]
-[13апр.2024 03:10:31.771] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[13апр.2024 03:10:31.888] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[13апр.2024 03:10:31.948] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/komet/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[13апр.2024 03:10:32.377] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\komet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.20\918959a037ab7191a0c45a359f4746ab76c110c3\javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[13апр.2024 03:10:32.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\komet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.20\c1d1efcb98e8bfcf3dbfed0d1e81b55b648b86bf\lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[13апр.2024 03:10:32.385] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\komet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.20\efca3bee89c0085192b122d47334692b921ca7d1\mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[13апр.2024 03:10:32.390] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\komet\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.20\12cd436f148405b50c9b16bd8f3cc6f18db89824\fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
-[13апр.2024 03:10:32.473] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13апр.2024 03:10:34.019] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.sokm.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[13апр.2024 03:10:34.020] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13апр.2024 03:10:34.034] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\komet\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, sokm, --all, --output, Z:\Prrorgrams\modingminecraft\sokm\src\generated\resources, --existing, Z:\Prrorgrams\modingminecraft\sokm\src\main\resources]
-[13апр.2024 03:10:34.088] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
-[13апр.2024 03:10:34.090] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
-[13апр.2024 03:10:34.096] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[13апр.2024 03:10:34.097] [main/INFO] [mixin/]: Selecting config mixins.sokm.json
-[13апр.2024 03:10:34.101] [main/INFO] [mixin/]: Preparing mixins.sokm.json (1)
-[13апр.2024 03:10:34.437] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [sokm]
-[13апр.2024 03:10:34.544] [main/INFO] [mixin/]: Mixing EntityMixin from mixins.sokm.json into net.minecraft.world.entity.Entity
-[13апр.2024 03:10:34.557] [main/INFO] [mixin/]: Renaming synthetic method lambda$onMove$2(Lnet/minecraftforge/fluids/FluidType;Ljava/lang/Double;)Z to md8fbc01$lambda$onMove$2$0 in mixins.sokm.json:EntityMixin
-[13апр.2024 03:10:34.559] [main/INFO] [mixin/]: Renaming synthetic method lambda$onMove$1(Lnet/minecraftforge/fluids/FluidType;Ljava/lang/Double;)Z to md8fbc01$lambda$onMove$1$1 in mixins.sokm.json:EntityMixin
-[13апр.2024 03:10:34.559] [main/INFO] [mixin/]: Renaming synthetic method lambda$onMove$0(Lnet/minecraft/world/level/block/state/BlockState;)Z to md8fbc01$lambda$onMove$0$2 in mixins.sokm.json:EntityMixin
-[13апр.2024 03:10:38.832] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
-[13апр.2024 03:10:38.836] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
-[13апр.2024 03:10:39.470] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/komet/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[13апр.2024 03:10:39.470] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/komet/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[13апр.2024 03:10:39.643] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[13апр.2024 03:10:39.705] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 61 ms
-[13апр.2024 03:10:39.705] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[13апр.2024 03:10:39.744] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 39 ms
-[13апр.2024 03:10:39.745] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: sokm
-[13апр.2024 03:10:39.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: sokm finished after 239 ms
-[13апр.2024 03:10:39.984] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: sokm
-[13апр.2024 03:10:39.988] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: sokm finished after 4 ms
-[13апр.2024 03:10:39.988] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id sokm
-[13апр.2024 03:10:40.001] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id sokm finished after 12 ms
-[13апр.2024 03:10:40.001] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id sokm
-[13апр.2024 03:10:40.003] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id sokm finished after 1 ms
-[13апр.2024 03:10:40.003] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 360 ms
-[13апр.2024 03:10:40.010] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 40, old count: 37, new count: 41, removed stale: 0, written: 3
+[29мая2024 19:03:51.557] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\nikit\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, sokm, --all, --output, Z:\Prrorgrams\modingminecraft\sokm\src\generated\resources, --existing, Z:\Prrorgrams\modingminecraft\sokm\src\main\resources, --mixin.config, mixins.sokm.json]
+[29мая2024 19:03:51.567] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[29мая2024 19:03:51.736] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[29мая2024 19:03:51.813] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/nikit/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[29мая2024 19:03:52.293] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\nikit\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.20\918959a037ab7191a0c45a359f4746ab76c110c3\javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[29мая2024 19:03:52.300] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\nikit\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.20\c1d1efcb98e8bfcf3dbfed0d1e81b55b648b86bf\lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[29мая2024 19:03:52.304] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\nikit\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.20\efca3bee89c0085192b122d47334692b921ca7d1\mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[29мая2024 19:03:52.309] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\nikit\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.20\12cd436f148405b50c9b16bd8f3cc6f18db89824\fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[29мая2024 19:03:52.451] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29мая2024 19:03:54.265] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.sokm.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[29мая2024 19:03:54.265] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29мая2024 19:03:54.269] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\nikit\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, sokm, --all, --output, Z:\Prrorgrams\modingminecraft\sokm\src\generated\resources, --existing, Z:\Prrorgrams\modingminecraft\sokm\src\main\resources]
+[29мая2024 19:03:54.375] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[29мая2024 19:03:54.377] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[29мая2024 19:03:54.385] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[29мая2024 19:03:54.385] [main/INFO] [mixin/]: Selecting config mixins.sokm.json
+[29мая2024 19:03:54.390] [main/INFO] [mixin/]: Preparing mixins.sokm.json (1)
+[29мая2024 19:03:54.854] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [sokm]
+[29мая2024 19:03:54.999] [main/INFO] [mixin/]: Mixing EntityMixin from mixins.sokm.json into net.minecraft.world.entity.Entity
+[29мая2024 19:03:55.007] [main/INFO] [mixin/]: Renaming synthetic method lambda$onMove$2(Lnet/minecraftforge/fluids/FluidType;Ljava/lang/Double;)Z to md32ccfe$lambda$onMove$2$0 in mixins.sokm.json:EntityMixin
+[29мая2024 19:03:55.010] [main/INFO] [mixin/]: Renaming synthetic method lambda$onMove$1(Lnet/minecraftforge/fluids/FluidType;Ljava/lang/Double;)Z to md32ccfe$lambda$onMove$1$1 in mixins.sokm.json:EntityMixin
+[29мая2024 19:03:55.010] [main/INFO] [mixin/]: Renaming synthetic method lambda$onMove$0(Lnet/minecraft/world/level/block/state/BlockState;)Z to md32ccfe$lambda$onMove$0$2 in mixins.sokm.json:EntityMixin
+[29мая2024 19:04:00.528] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[29мая2024 19:04:00.533] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[29мая2024 19:04:01.184] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nikit/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[29мая2024 19:04:01.185] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nikit/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.20_mapped_parchment_2023.06.26-1.20.1.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[29мая2024 19:04:01.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[29мая2024 19:04:01.500] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 54 ms
+[29мая2024 19:04:01.501] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[29мая2024 19:04:01.539] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 38 ms
+[29мая2024 19:04:01.539] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: sokm
+[29мая2024 19:04:01.676] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: sokm finished after 137 ms
+[29мая2024 19:04:01.676] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: sokm
+[29мая2024 19:04:01.682] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: sokm finished after 6 ms
+[29мая2024 19:04:01.683] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id sokm
+[29мая2024 19:04:01.710] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id sokm finished after 27 ms
+[29мая2024 19:04:01.710] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id sokm
+[29мая2024 19:04:01.712] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id sokm finished after 1 ms
+[29мая2024 19:04:01.713] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 268 ms
+[29мая2024 19:04:01.721] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 41, old count: 40, new count: 42, removed stale: 0, written: 1
