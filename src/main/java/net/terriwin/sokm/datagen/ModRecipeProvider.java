@@ -33,6 +33,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', ModItems.lignitecoal.get())
                 .unlockedBy(getHasName(ModItems.lignitecoal.get()), has(ModItems.lignitecoal.get()))
                 .save(pWriter);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.lignitecoal.get(), 9)
                 .requires(ModBlocks.lignitecoal_block.get())
                 .unlockedBy(getHasName(ModBlocks.lignitecoal_block.get()), has(ModBlocks.lignitecoal_block.get()))
