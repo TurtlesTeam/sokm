@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "sokm:block/cybercake/cybercake"
+    },
+    "bites=1": {
+      "model": "sokm:block/cybercake/cybercake_slice1"
+    },
+    "bites=2": {
+      "model": "sokm:block/cybercake/cybercake_slice2"
+    },
+    "bites=3": {
+      "model": "sokm:block/cybercake/cybercake_slice3"
+    },
+    "bites=4": {
+      "model": "sokm:block/cybercake/cybercake_slice4"
+    },
+    "bites=5": {
+      "model": "sokm:block/cybercake/cybercake_slice5"
+    },
+    "bites=6": {
+      "model": "sokm:block/cybercake/cybercake_slice6"
+    }
+  }
+}

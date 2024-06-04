@@ -24,6 +24,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.glaze_bucket.get());
 
                         pOutput.accept(ModItems.donut.get());
+                        pOutput.accept(ModBlocks.cybercake.get());
 
                         pOutput.accept(ModBlocks.lignitecoal_block.get());
                         pOutput.accept(ModBlocks.lignitecoal_ore.get());

@@ -1,7 +1,12 @@
 {
   "item.sokm.bundlesweets": "Bundle of Sweets",
   "item.sokm.bundledrinks": "Bundle of Drinks",
+
+
   "item.sokm.cyberpizza": "Cyber Pizza",
+  "block.sokm.cybercake": "Cyber Cake",
+
+
   "item.sokm.lignitecoal": "Lignite Coal",
 
   "item.sokm.donut": "The Main Secret of Kitchen Mechanics",
@@ -17,4 +22,5 @@
   "item.sokm.andensite_base": "Andensite Base",
   "item.sokm.brass_base": "Brass Base",
   "item.sokm.radiant_base": "Radiant Base"
+
 }

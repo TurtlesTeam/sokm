@@ -12,6 +12,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.terriwin.sokm.block.custom.CyberCakeBlock;
 import net.terriwin.sokm.block.custom.FuelBlock;
 import net.terriwin.sokm.fluids.ModFluids;
 import net.terriwin.sokm.item.ModItems;
@@ -34,6 +35,8 @@ public class ModBlocks {
             () -> new LiquidBlock(ModFluids.SOURCE_GLAZE, BlockBehaviour.Properties.copy(Blocks.LAVA).noLootTable()));
 
 
+    public  static final RegistryObject<Block> cybercake = registryObject("cybercake",
+            () -> new CyberCakeBlock(BlockBehaviour.Properties.copy(Blocks.CAKE)));
 
 
 
