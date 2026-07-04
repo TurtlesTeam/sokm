@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lignitecoal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sokm:lignitecoal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sokm:lignitecoal_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lignitecoal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sokm:lignitecoal_block"
+    ]
+  }
+}

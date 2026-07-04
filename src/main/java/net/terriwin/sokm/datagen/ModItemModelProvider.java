@@ -3,10 +3,9 @@ package net.terriwin.sokm.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.client.model.generators.ItemModelBuilder;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredItem;
 import net.terriwin.sokm.item.ModItems;
 import net.terriwin.sokm.sokm;
 
@@ -26,7 +25,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.cyberpizza);
 
 
-
         //bases
         simpleItem(ModItems.andensite_base);
         simpleItem(ModItems.brass_base);
@@ -34,10 +32,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         //
     }
 
-    private ItemModelBuilder simpleItem(RegistryObject<Item> item){
-        return  withExistingParent(item.getId().getPath(),
-                new ResourceLocation("item/generated")).texture("layer0",
-                new ResourceLocation(sokm.MOD_ID, "item/"+ item.getId().getPath()));
+    private void simpleItem(DeferredItem<Item> item) {
+        withExistingParent(item.getId().getPath(),
+                ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(sokm.MOD_ID, "item/" + item.getId().getPath()));
     }
 
 }

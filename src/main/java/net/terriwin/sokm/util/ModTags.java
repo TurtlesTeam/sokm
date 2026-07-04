@@ -14,7 +14,7 @@ public class ModTags {
         public static final TagKey<Block> creativbleblock = tag("creativbleblock");
 
         private static TagKey<Block> tag(String name) {
-            return BlockTags.create(new ResourceLocation(sokm.MOD_ID, name));
+            return BlockTags.create(ResourceLocation.fromNamespaceAndPath(sokm.MOD_ID, name));
         }
     }
     public  static class Items {
@@ -24,7 +24,7 @@ public class ModTags {
 
 
         private static TagKey<Item> tag(String name) {
-            return ItemTags.create(new ResourceLocation(sokm.MOD_ID, name));
+            return ItemTags.create(ResourceLocation.fromNamespaceAndPath(sokm.MOD_ID, name));
         }
 
     }
