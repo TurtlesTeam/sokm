@@ -23,7 +23,7 @@ public class ModItems {
 
 
     public static final DeferredItem<Item> cyberpizza = ITEMS.register("cyberpizza",
-            () -> new Item(new Item.Properties().stacksTo(64)));
+            () -> new Item(new Item.Properties().food(ModFoods.cyberpizza).stacksTo(16)));
 
     //bases
 
