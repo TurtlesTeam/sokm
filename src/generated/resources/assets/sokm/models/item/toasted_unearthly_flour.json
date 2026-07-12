@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "sokm:item/meals/sokm_calcined_nether_flour"
+    "layer0": "sokm:item/meals/sokm_toasted_unearthly_flour"
   }
 }
