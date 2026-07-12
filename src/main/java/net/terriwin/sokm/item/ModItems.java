@@ -10,9 +10,25 @@ import net.terriwin.sokm.fluids.ModFluids;
 import net.terriwin.sokm.item.custom.FuelItem;
 import net.terriwin.sokm.sokm;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class ModItems {
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems(sokm.MOD_ID);
+
+    public static final Map<String, DeferredItem<Item>> FLOURS = new LinkedHashMap<>();
+
+    static {
+        String[] prefixes = {"", "calcined_", "toasted_", "washed_"};
+        String[] bases = {"fish_flour", "grain_flour", "herb_flour", "meat_flour", "nether_flour", "sugar_flour"};
+        for (String prefix : prefixes) {
+            for (String base : bases) {
+                String id = prefix + base;
+                FLOURS.put(id, ITEMS.register(id, () -> new Item(new Item.Properties())));
+            }
+        }
+    }
 
     public static final DeferredItem<Item> bundlesweets = ITEMS.register("bundlesweets",
             () -> new Item(new Item.Properties().stacksTo(1)));

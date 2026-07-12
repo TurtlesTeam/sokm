@@ -1,43 +1,43 @@
-[05июл.2026 15:17:42.789] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, sokm, --all, --output, E:\Programmss\minmodingprjct\sokm\src\generated\resources, --existing, E:\Programmss\minmodingprjct\sokm\src\main\resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, C:\Users\naive\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
-[05июл.2026 15:17:42.793] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
-[05июл.2026 15:17:42.795] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[05июл.2026 15:17:42.932] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file E:\Programmss\minmodingprjct\sokm\run-data\config\fml.toml is not correct. Correcting
-[05июл.2026 15:17:42.979] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
-[05июл.2026 15:17:43.103] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/naive/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/ Service=ModLauncher Env=CLIENT
-[05июл.2026 15:17:43.117] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file E:\Programmss\minmodingprjct\sokm\run-data\config\fml.toml is not correct. Correcting
-[05июл.2026 15:17:43.414] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234.jar" [locator: neoforge devenv provider ([E:\Programmss\minmodingprjct\sokm\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.234\neoforge-21.1.234.jar])]
-[05июл.2026 15:17:43.467] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234.jar" [locator: neoforge devenv provider ([E:\Programmss\minmodingprjct\sokm\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.234\neoforge-21.1.234.jar])]
-[05июл.2026 15:17:43.486] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
-[05июл.2026 15:17:43.506] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234.jar" [locator: userdev mods and services, reader: mod manifest]
-[05июл.2026 15:17:43.591] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [locator: userdev mods and services, reader: mod manifest]
-[05июл.2026 15:17:43.780] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\naive\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.3\a0919957808de97707c5fb4ce073e66aeef3e187\mixinextras-neoforge-0.5.3.jar
-[05июл.2026 15:17:43.780] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[05июл.2026 15:17:43.781] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.234.jar" [parent: neoforge-21.1.234.jar, locator: jarinjar, reader: mod manifest]
-[05июл.2026 15:17:43.783] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[12июл.2026 18:08:39.155] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--mod, sokm, --all, --output, E:\Programmss\minmodingprjct\sokm\src\generated\resources, --existing, E:\Programmss\minmodingprjct\sokm\src\main\resources, --launchTarget, forgedatadev, --assetIndex, asset-index, --assetsDir, C:\Users\naive\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.234, --fml.neoFormVersion, 20240808.144430]
+[12июл.2026 18:08:39.163] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[12июл.2026 18:08:39.165] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12июл.2026 18:08:39.313] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file E:\Programmss\minmodingprjct\sokm\run-data\config\fml.toml is not correct. Correcting
+[12июл.2026 18:08:39.356] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatadev
+[12июл.2026 18:08:39.436] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/naive/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/ Service=ModLauncher Env=CLIENT
+[12июл.2026 18:08:39.450] [main/WARN] [net.neoforged.fml.loading.FMLConfig/CORE]: Configuration file E:\Programmss\minmodingprjct\sokm\run-data\config\fml.toml is not correct. Correcting
+[12июл.2026 18:08:39.761] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234.jar" [locator: neoforge devenv provider ([E:\Programmss\minmodingprjct\sokm\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.234\neoforge-21.1.234.jar])]
+[12июл.2026 18:08:39.817] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234.jar" [locator: neoforge devenv provider ([E:\Programmss\minmodingprjct\sokm\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.234\neoforge-21.1.234.jar])]
+[12июл.2026 18:08:39.833] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[12июл.2026 18:08:39.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.234.jar" [locator: userdev mods and services, reader: mod manifest]
+[12июл.2026 18:08:39.947] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [locator: userdev mods and services, reader: mod manifest]
+[12июл.2026 18:08:40.124] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\naive\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.3\a0919957808de97707c5fb4ce073e66aeef3e187\mixinextras-neoforge-0.5.3.jar
+[12июл.2026 18:08:40.125] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[12июл.2026 18:08:40.126] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.234.jar" [parent: neoforge-21.1.234.jar, locator: jarinjar, reader: mod manifest]
+[12июл.2026 18:08:40.127] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.234 (neoforge)
 		Secrets of Kitchen Machinestry 0.1-1.21.1 (sokm)
-[05июл.2026 15:17:44.533] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[05июл.2026 15:17:44.566] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\naive\.gradle\caches\minecraft\assets, --mod, sokm, --all, --output, E:\Programmss\minmodingprjct\sokm\src\generated\resources, --existing, E:\Programmss\minmodingprjct\sokm\src\main\resources, --assetIndex, asset-index]
-[05июл.2026 15:17:45.275] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [sokm]
-[05июл.2026 15:17:45.289] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[05июл.2026 15:17:52.618] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
-[05июл.2026 15:17:53.097] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/Programmss/minmodingprjct/sokm/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.234/neoforge-21.1.234.jar%23195!/assets/.mcassetsroot' uses unexpected schema
-[05июл.2026 15:17:53.097] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/Programmss/minmodingprjct/sokm/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.234/neoforge-21.1.234.jar%23195!/data/.mcassetsroot' uses unexpected schema
-[05июл.2026 15:17:53.409] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[05июл.2026 15:17:53.534] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 122 ms
-[05июл.2026 15:17:53.535] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[05июл.2026 15:17:53.554] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 19 ms
-[05июл.2026 15:17:53.554] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: sokm
-[05июл.2026 15:17:53.581] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: sokm finished after 25 ms
-[05июл.2026 15:17:53.581] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: sokm
-[05июл.2026 15:17:53.589] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: sokm finished after 8 ms
-[05июл.2026 15:17:53.589] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id sokm
-[05июл.2026 15:17:53.599] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id sokm finished after 9 ms
-[05июл.2026 15:17:53.600] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id sokm
-[05июл.2026 15:17:53.603] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id sokm finished after 2 ms
-[05июл.2026 15:17:53.603] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 194 ms
-[05июл.2026 15:17:53.619] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 41, old count: 0, new count: 42, removed stale: 0, written: 41
+[12июл.2026 18:08:40.873] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[12июл.2026 18:08:40.886] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatadev' with arguments [--gameDir, ., --assetsDir, C:\Users\naive\.gradle\caches\minecraft\assets, --mod, sokm, --all, --output, E:\Programmss\minmodingprjct\sokm\src\generated\resources, --existing, E:\Programmss\minmodingprjct\sokm\src\main\resources, --assetIndex, asset-index]
+[12июл.2026 18:08:41.555] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [sokm]
+[12июл.2026 18:08:41.576] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[12июл.2026 18:08:47.808] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.234, for MC 1.21.1
+[12июл.2026 18:08:48.447] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/Programmss/minmodingprjct/sokm/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.234/neoforge-21.1.234.jar%23195!/assets/.mcassetsroot' uses unexpected schema
+[12июл.2026 18:08:48.448] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/Programmss/minmodingprjct/sokm/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.234/neoforge-21.1.234.jar%23195!/data/.mcassetsroot' uses unexpected schema
+[12июл.2026 18:08:48.846] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12июл.2026 18:08:49.110] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 263 ms
+[12июл.2026 18:08:49.110] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[12июл.2026 18:08:49.127] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 15 ms
+[12июл.2026 18:08:49.127] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: sokm
+[12июл.2026 18:08:49.146] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: sokm finished after 19 ms
+[12июл.2026 18:08:49.146] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: sokm
+[12июл.2026 18:08:49.189] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: sokm finished after 43 ms
+[12июл.2026 18:08:49.190] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id sokm
+[12июл.2026 18:08:49.198] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id sokm finished after 8 ms
+[12июл.2026 18:08:49.199] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id sokm
+[12июл.2026 18:08:49.201] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id sokm finished after 2 ms
+[12июл.2026 18:08:49.202] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 356 ms
+[12июл.2026 18:08:49.214] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 65, old count: 41, new count: 66, removed stale: 0, written: 24

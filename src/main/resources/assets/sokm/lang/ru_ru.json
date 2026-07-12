@@ -1,0 +1,51 @@
+{
+  "item.sokm.bundlesweets": "Набор сладостей",
+  "item.sokm.bundledrinks": "Набор напитков",
+
+  "item.sokm.cyberpizza": "Кибер-пицца",
+  "block.sokm.cybercake": "Кибер-торт",
+
+  "item.sokm.lignitecoal": "Бурый уголь",
+
+  "item.sokm.donut": "Главный секрет кухонного машиностроения",
+
+  "block.sokm.lignitecoal_block": "Блок бурого угля",
+  "block.sokm.lignitecoal_ore": "Руда бурого угля",
+  "block.sokm.deepslate_lignitecoal_ore": "Руда бурого угля в глубинном сланце",
+
+  "creativetab.sokm_tab": "Секрет кухонного машиностроения",
+
+  "item.sokm.glaze_bucket": "Ведро глазури",
+
+  "item.sokm.andensite_base": "Андезитовая основа",
+  "item.sokm.brass_base": "Латунная основа",
+  "item.sokm.radiant_base": "Сияющая основа",
+
+  "item.sokm.fish_flour": "Рыбная мука",
+  "item.sokm.grain_flour": "Зерновая мука",
+  "item.sokm.herb_flour": "Травяная мука",
+  "item.sokm.meat_flour": "Мясная мука",
+  "item.sokm.nether_flour": "Незерская мука",
+  "item.sokm.sugar_flour": "Сахарная мука",
+
+  "item.sokm.calcined_fish_flour": "Прокалённая рыбная мука",
+  "item.sokm.calcined_grain_flour": "Прокалённая зерновая мука",
+  "item.sokm.calcined_herb_flour": "Прокалённая травяная мука",
+  "item.sokm.calcined_meat_flour": "Прокалённая мясная мука",
+  "item.sokm.calcined_nether_flour": "Прокалённая незерская мука",
+  "item.sokm.calcined_sugar_flour": "Прокалённая сахарная мука",
+
+  "item.sokm.toasted_fish_flour": "Поджаренная рыбная мука",
+  "item.sokm.toasted_grain_flour": "Поджаренная зерновая мука",
+  "item.sokm.toasted_herb_flour": "Поджаренная травяная мука",
+  "item.sokm.toasted_meat_flour": "Поджаренная мясная мука",
+  "item.sokm.toasted_nether_flour": "Поджаренная незерская мука",
+  "item.sokm.toasted_sugar_flour": "Поджаренная сахарная мука",
+
+  "item.sokm.washed_fish_flour": "Промытая рыбная мука",
+  "item.sokm.washed_grain_flour": "Промытая зерновая мука",
+  "item.sokm.washed_herb_flour": "Промытая травяная мука",
+  "item.sokm.washed_meat_flour": "Промытая мясная мука",
+  "item.sokm.washed_nether_flour": "Промытая незерская мука",
+  "item.sokm.washed_sugar_flour": "Промытая сахарная мука"
+}

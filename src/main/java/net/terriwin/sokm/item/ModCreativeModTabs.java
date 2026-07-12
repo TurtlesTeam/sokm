@@ -27,6 +27,8 @@ public class ModCreativeModTabs {
                             pOutput.accept(ModItems.cyberpizza.get());
                             pOutput.accept(ModBlocks.cybercake.get());
 
+                            ModItems.FLOURS.values().forEach(item -> pOutput.accept(item.get()));
+
                             pOutput.accept(ModBlocks.lignitecoal_block.get());
                             pOutput.accept(ModBlocks.lignitecoal_ore.get());
                             pOutput.accept(ModBlocks.deepslate_lignitecoal_ore.get());

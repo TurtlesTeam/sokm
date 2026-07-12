@@ -24,6 +24,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.bundledrinks);
         simpleItem(ModItems.cyberpizza);
 
+        ModItems.FLOURS.forEach((id, item) ->
+                withExistingParent(id, ResourceLocation.withDefaultNamespace("item/generated"))
+                        .texture("layer0", ResourceLocation.fromNamespaceAndPath(sokm.MOD_ID, "item/meals/sokm_" + id)));
 
         //bases
         simpleItem(ModItems.andensite_base);
