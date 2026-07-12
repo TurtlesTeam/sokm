@@ -27,28 +27,28 @@
   "item.sokm.grain_flour": "Grain Flour",
   "item.sokm.herb_flour": "Herb Flour",
   "item.sokm.meat_flour": "Meat Flour",
-  "item.sokm.nether_flour": "Nether Flour",
+  "item.sokm.unearthly_flour": "Unearthly Flour",
   "item.sokm.sugar_flour": "Sugar Flour",
 
   "item.sokm.calcined_fish_flour": "Calcined Fish Flour",
   "item.sokm.calcined_grain_flour": "Calcined Grain Flour",
   "item.sokm.calcined_herb_flour": "Calcined Herb Flour",
   "item.sokm.calcined_meat_flour": "Calcined Meat Flour",
-  "item.sokm.calcined_nether_flour": "Calcined Nether Flour",
+  "item.sokm.calcined_unearthly_flour": "Calcined Unearthly Flour",
   "item.sokm.calcined_sugar_flour": "Calcined Sugar Flour",
 
   "item.sokm.toasted_fish_flour": "Toasted Fish Flour",
   "item.sokm.toasted_grain_flour": "Toasted Grain Flour",
   "item.sokm.toasted_herb_flour": "Toasted Herb Flour",
   "item.sokm.toasted_meat_flour": "Toasted Meat Flour",
-  "item.sokm.toasted_nether_flour": "Toasted Nether Flour",
+  "item.sokm.toasted_unearthly_flour": "Toasted Unearthly Flour",
   "item.sokm.toasted_sugar_flour": "Toasted Sugar Flour",
 
   "item.sokm.washed_fish_flour": "Washed Fish Flour",
   "item.sokm.washed_grain_flour": "Washed Grain Flour",
   "item.sokm.washed_herb_flour": "Washed Herb Flour",
   "item.sokm.washed_meat_flour": "Washed Meat Flour",
-  "item.sokm.washed_nether_flour": "Washed Nether Flour",
+  "item.sokm.washed_unearthly_flour": "Washed Unearthly Flour",
   "item.sokm.washed_sugar_flour": "Washed Sugar Flour"
 
 }

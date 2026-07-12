@@ -21,7 +21,7 @@ public class ModItems {
 
     static {
         String[] prefixes = {"", "calcined_", "toasted_", "washed_"};
-        String[] bases = {"fish_flour", "grain_flour", "herb_flour", "meat_flour", "nether_flour", "sugar_flour"};
+        String[] bases = {"fish_flour", "grain_flour", "herb_flour", "meat_flour", "unearthly_flour", "sugar_flour"};
         for (String prefix : prefixes) {
             for (String base : bases) {
                 String id = prefix + base;
